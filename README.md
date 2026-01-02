@@ -29,14 +29,23 @@
 ## 项目结构
 
 ```
-lsp/
-└── src/
-    └── main/
-        └── java/
-            └── com/
-                └── si9ma/
-                    └── linkUnionHook/
-                        └── LabelReplacementHook.java  # 主 Hook 类
+StarryNetHook/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── si9ma/
+│       │           └── starrynethook/
+│       │               └── StarrynetHook.java  # 主 Hook 类
+│       ├── AndroidManifest.xml
+│       ├── assets/
+│       │   └── xposed_init
+│       └── res/
+│           └── values/
+│               └── strings.xml
+├── build.gradle
+├── settings.gradle
+└── README.md
 ```
 
 ## 环境要求
@@ -137,7 +146,7 @@ public class StarrynetHook implements IXposedHookLoadPackage {
 ## 联系方式
 
 - 作者：si9ma
-- 项目路径：`/Users/si9ma/Factory/FlymeLinkUnion_java/lsp`
+- 项目地址：https://github.com/si9ma/StarryNetHook
 
 ---
 
